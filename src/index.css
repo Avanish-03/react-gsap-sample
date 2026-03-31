@@ -1,1 +1,32 @@
 @import "tailwindcss";
+
+body{
+    min-height: 100vh;
+    overflow-x: hidden;
+    font-family: "antonio", sans-serif;
+}
+
+.front{
+    background: linear-gradient(to right, skyblue, rgb(0,0,0,0)) ;
+    transform: rotateY(0deg) translateZ(150px)
+}
+.back{
+    background: linear-gradient(to right, pink, rgb(0,0,0,0)) ;
+    transform: rotateY(180deg) translateZ(150px)
+}
+.right{
+    background: linear-gradient(to right, #38f279, rgb(0,0,0,0)) ;
+    transform: rotateY(90deg) translateZ(150px)
+}
+.left{
+    background: linear-gradient(to right, #f25922, rgb(0,0,0,0)) ;
+    transform: rotateY(-90deg) translateZ(150px)
+}
+.top{
+    background: linear-gradient(to right, #f20f38, rgb(0,0,0,0)) ;
+    transform: rotateX(90deg) translateZ(150px)
+}
+.bottom{
+    background: linear-gradient(to right, #000, rgb(0,0,0,0)) ;
+    transform: rotateX(-90deg) translateZ(150px)
+}
